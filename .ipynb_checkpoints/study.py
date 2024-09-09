@@ -1,6 +1,6 @@
 import torch
 import numpy as np
-
+#  这是新分支
 
 if __name__ == '__main__':
     # 方式1：直接使用数据初始化

@@ -83,7 +83,7 @@ from torch.utils.data import DataLoader
 import torch
 from torchvision import datasets
 from torchvision.transforms import ToTensor, Lambda
-
+#  这是新分支
 # MNIST数据集中默认图像格式是PIL，标签格式是整数，此处我们编写代码将图像转换为tensor，
 # 标签转化为独热编码（one-hot encoded）
 ds = datasets.FashionMNIST(

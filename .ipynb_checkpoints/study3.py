@@ -39,7 +39,7 @@ if __name__ == '__main__':
     w = torch.randn(5, 3, requires_grad=True)	# 权重张量
     b = torch.randn(3, requires_grad=True)		# 偏置张量
 
-
+    #  这是新分支
     # # 使用二进制交叉熵损失函数计算预测张量z和目标输出张量y之间的损失。
     # for i in range(5):
     #     z = torch.matmul(x, w) + b
